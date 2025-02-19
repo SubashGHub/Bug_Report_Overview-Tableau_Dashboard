@@ -7,11 +7,11 @@ log = Logger()
 
 # Database Configuration
 db_config = {
-    "host": '127.0.0.1',
-    "user": 'root',
-    "password": 'sqlPass@3',
-    "database": 'mydb',
-    "port": 3306
+    "host": '*******',
+    "user": '*******',
+    "password": '*********',
+    "database": '********',
+    "port": 0000
 }
 
 
