@@ -1,0 +1,337 @@
+2025-02-16 21:47:31 - INFO - Start
+2025-02-16 21:47:31 - INFO - Database connection established successfully.
+2025-02-16 21:47:31 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-16 21:47:31 - INFO - CSV Data Read and Loaded.
+2025-02-16 21:47:31 - DEBUG - Parse data check...
+2025-02-16 21:47:31 - INFO - no.of thread 16
+2025-02-16 21:47:31 - INFO - Starting multi-threaded data insertion...
+2025-02-16 21:47:32 - INFO - Database connection established successfully.
+2025-02-16 21:47:32 - INFO - Database connection established successfully.
+2025-02-16 21:47:32 - INFO - Database connection established successfully.
+2025-02-16 21:47:32 - INFO - Inserted batch of 4 records successfully.
+2025-02-16 21:47:32 - INFO - Inserted batch of 3 records successfully.
+2025-02-16 21:47:32 - INFO - Inserted batch of 3 records successfully.
+2025-02-16 21:47:32 - INFO - Data insertion completed.
+2025-02-16 21:47:32 - INFO - no.of thread 16
+2025-02-16 21:47:32 - INFO - ------------Program Completed--------------
+2025-02-17 11:09:44 - INFO - Database connection established successfully.
+2025-02-17 11:09:44 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 11:09:44 - INFO - CSV Data Read and Loaded.
+2025-02-17 11:09:44 - DEBUG - Parse data check...
+2025-02-17 11:09:44 - INFO - Executed read_csv_data in 0.0326 seconds
+2025-02-17 11:09:44 - INFO - no.of thread 16
+2025-02-17 11:09:44 - INFO - Starting multi-threaded data insertion...
+2025-02-17 11:09:44 - INFO - Database connection established successfully.
+2025-02-17 11:09:44 - INFO - Database connection established successfully.
+2025-02-17 11:09:44 - INFO - Database connection established successfully.
+2025-02-17 11:09:44 - INFO - Inserted batch of 3 records successfully.
+2025-02-17 11:09:44 - INFO - Executed __insert_batch_data in 0.0204 seconds
+2025-02-17 11:09:44 - INFO - Inserted batch of 3 records successfully.
+2025-02-17 11:09:44 - INFO - Executed __insert_batch_data in 0.0177 seconds
+2025-02-17 11:09:44 - INFO - Inserted batch of 4 records successfully.
+2025-02-17 11:09:44 - INFO - Executed __insert_batch_data in 0.0116 seconds
+2025-02-17 11:09:44 - INFO - Executed insert_data_multithreaded in 0.0250 seconds
+2025-02-17 11:09:44 - INFO - Data insertion completed.
+2025-02-17 11:09:44 - INFO - no.of thread 16
+2025-02-17 11:09:44 - INFO - ------------Program Completed--------------
+2025-02-17 11:13:47 - INFO - Database connection established successfully.
+2025-02-17 11:13:47 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 11:13:47 - INFO - CSV Data Read and Loaded.
+2025-02-17 11:13:47 - DEBUG - Parse data check...
+2025-02-17 11:13:47 - INFO - Executed read_csv_data in 0.0281 seconds
+2025-02-17 11:13:47 - INFO - no.of thread 16
+2025-02-17 11:13:47 - INFO - Starting multi-threaded data insertion...
+2025-02-17 11:13:47 - INFO - Database connection established successfully.
+2025-02-17 11:13:47 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '24-11-2023' for column 'Date' at row 1")
+2025-02-17 11:13:47 - INFO - Database connection established successfully.
+2025-02-17 11:13:47 - INFO - Executed __insert_batch_data in 0.0071 seconds
+2025-02-17 11:13:47 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '13-03-2023' for column 'Date' at row 1")
+2025-02-17 11:13:47 - INFO - Database connection established successfully.
+2025-02-17 11:13:47 - INFO - Executed __insert_batch_data in 0.0061 seconds
+2025-02-17 11:13:47 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '21-05-2023' for column 'Date' at row 1")
+2025-02-17 11:13:47 - INFO - Executed __insert_batch_data in 0.0084 seconds
+2025-02-17 11:13:47 - INFO - Executed insert_data_multithreaded in 0.0134 seconds
+2025-02-17 11:13:47 - INFO - Data insertion completed.
+2025-02-17 11:13:47 - INFO - no.of thread 16
+2025-02-17 11:13:47 - INFO - ------------Program Completed--------------
+2025-02-17 11:15:21 - INFO - Database connection established successfully.
+2025-02-17 11:15:21 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 11:15:21 - INFO - CSV Data Read and Loaded.
+2025-02-17 11:15:21 - DEBUG - Parse data check...
+2025-02-17 11:15:21 - INFO - Executed read_csv_data in 0.0230 seconds
+2025-02-17 11:15:21 - INFO - no.of thread 16
+2025-02-17 11:15:21 - INFO - Starting multi-threaded data insertion...
+2025-02-17 11:15:21 - INFO - Database connection established successfully.
+2025-02-17 11:15:21 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '24-11-2023' for column 'Date' at row 1")
+2025-02-17 11:15:21 - INFO - Executed __insert_batch_data in 0.0055 seconds
+2025-02-17 11:15:21 - INFO - Database connection established successfully.
+2025-02-17 11:15:21 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '13-03-2023' for column 'Date' at row 1")
+2025-02-17 11:15:21 - INFO - Executed __insert_batch_data in 0.0040 seconds
+2025-02-17 11:15:21 - INFO - Database connection established successfully.
+2025-02-17 11:15:21 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '21-05-2023' for column 'Date' at row 1")
+2025-02-17 11:15:21 - INFO - Executed __insert_batch_data in 0.0182 seconds
+2025-02-17 11:15:21 - INFO - Executed insert_data_multithreaded in 0.0207 seconds
+2025-02-17 11:15:21 - INFO - Data insertion completed.
+2025-02-17 11:15:21 - INFO - no.of thread 16
+2025-02-17 11:15:21 - INFO - ------------Program Completed--------------
+
+2025-02-17 11:20:17 - INFO - Database connection established successfully.
+2025-02-17 11:20:17 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 11:20:17 - INFO - CSV Data Read and Loaded.
+2025-02-17 11:20:17 - DEBUG - Parse data check...
+2025-02-17 11:20:17 - INFO - Executed read_csv_data in 0.0100 seconds
+2025-02-17 11:20:17 - INFO - no.of thread 16
+2025-02-17 11:20:17 - INFO - Starting multi-threaded data insertion...
+2025-02-17 11:20:17 - INFO - Database connection established successfully.
+2025-02-17 11:20:17 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '24-11-2023' for column 'Date' at row 1")
+2025-02-17 11:20:17 - INFO - Database connection established successfully.
+2025-02-17 11:20:17 - INFO - Executed __insert_batch_data in 0.0065 seconds
+2025-02-17 11:20:17 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '21-05-2023' for column 'Date' at row 1")
+2025-02-17 11:20:17 - INFO - Database connection established successfully.
+2025-02-17 11:20:17 - INFO - Executed __insert_batch_data in 0.0065 seconds
+2025-02-17 11:20:17 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '13-03-2023' for column 'Date' at row 1")
+2025-02-17 11:20:17 - INFO - Executed __insert_batch_data in 0.0065 seconds
+2025-02-17 11:20:17 - INFO - Executed insert_data_multithreaded in 0.0105 seconds
+2025-02-17 11:20:17 - INFO - no.of thread 16
+2025-02-17 11:20:17 - INFO - Data insertion completed.
+2025-02-17 11:20:17 - INFO - ------------Program Completed--------------
+
+2025-02-17 11:39:48 - INFO - Database connection established successfully.
+2025-02-17 11:39:48 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 11:39:48 - INFO - CSV Data Read and Loaded.
+2025-02-17 11:39:48 - DEBUG - Parse data check...
+2025-02-17 11:39:48 - INFO - Executed read_csv_data in 0.0166 seconds
+2025-02-17 11:39:48 - INFO - Starting multi-threaded data insertion...
+2025-02-17 11:39:48 - INFO - Database connection established successfully.
+2025-02-17 11:39:48 - INFO - Inserted batch of 5 records successfully.
+2025-02-17 11:39:48 - INFO - Executed __insert_batch_data in 0.0064 seconds
+2025-02-17 11:39:48 - INFO - Database connection established successfully.
+2025-02-17 11:39:48 - ERROR - Error inserting batch: nan can not be used with MySQL
+2025-02-17 11:39:48 - INFO - Executed __insert_batch_data in 0.0144 seconds
+2025-02-17 11:39:48 - INFO - Executed insert_data_multithreaded in 0.0194 seconds
+2025-02-17 11:39:48 - INFO - Data insertion completed.
+2025-02-17 11:39:48 - INFO - ------------Program Completed--------------
+
+2025-02-17 11:42:54 - INFO - Database connection established successfully.
+2025-02-17 11:42:54 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 11:42:54 - INFO - CSV Data Read and Loaded.
+2025-02-17 11:42:54 - DEBUG - Parse data check...
+2025-02-17 11:42:54 - INFO - Executed read_csv_data in 0.0317 seconds
+2025-02-17 11:42:54 - INFO - Starting multi-threaded data insertion...
+2025-02-17 11:42:54 - INFO - Database connection established successfully.
+2025-02-17 11:42:54 - ERROR - Error inserting batch: nan can not be used with MySQL
+2025-02-17 11:42:54 - INFO - Executed __insert_batch_data in 0.0094 seconds
+2025-02-17 11:42:54 - INFO - Database connection established successfully.
+2025-02-17 11:42:54 - INFO - Inserted batch of 5 records successfully.
+2025-02-17 11:42:54 - INFO - Executed __insert_batch_data in 0.0225 seconds
+2025-02-17 11:42:54 - INFO - Executed insert_data_multithreaded in 0.0299 seconds
+2025-02-17 11:42:54 - INFO - Data insertion completed.
+2025-02-17 11:42:54 - INFO - ------------Program Completed--------------
+
+2025-02-17 11:47:42 - INFO - Database connection established successfully.
+2025-02-17 11:47:42 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 11:47:42 - INFO - CSV Data Read and Loaded.
+2025-02-17 11:47:42 - DEBUG - Parse data check...
+2025-02-17 11:47:42 - INFO - Executed read_csv_data in 0.0240 seconds
+2025-02-17 11:47:42 - INFO - Starting multi-threaded data insertion...
+2025-02-17 11:47:42 - INFO - Database connection established successfully.
+2025-02-17 11:47:42 - INFO - Inserted batch of 5 records successfully.
+2025-02-17 11:47:42 - INFO - Executed __insert_batch_data in 0.0072 seconds
+2025-02-17 11:47:42 - INFO - Database connection established successfully.
+2025-02-17 11:47:42 - ERROR - Error inserting batch: nan can not be used with MySQL
+2025-02-17 11:47:42 - INFO - Executed __insert_batch_data in 0.0154 seconds
+2025-02-17 11:47:42 - INFO - Executed insert_data_multithreaded in 0.0194 seconds
+2025-02-17 11:47:42 - INFO - Data insertion completed.
+2025-02-17 11:47:42 - INFO - ------------Program Completed--------------
+
+2025-02-17 11:50:26 - INFO - Database connection established successfully.
+2025-02-17 11:50:26 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 11:50:26 - INFO - CSV Data Read and Loaded.
+2025-02-17 11:50:26 - DEBUG - Parse data check...
+2025-02-17 11:50:26 - INFO - Executed read_csv_data in 0.0251 seconds
+2025-02-17 11:50:26 - INFO - Starting multi-threaded data insertion...
+2025-02-17 11:50:26 - INFO - Database connection established successfully.
+2025-02-17 11:50:26 - ERROR - Error inserting batch: nan can not be used with MySQL
+2025-02-17 11:50:26 - INFO - Database connection established successfully.
+2025-02-17 11:50:26 - INFO - Executed __insert_batch_data in 0.0116 seconds
+2025-02-17 11:50:26 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: 'NaT' for column 'Date' at row 3")
+2025-02-17 11:50:26 - INFO - Executed __insert_batch_data in 0.0137 seconds
+2025-02-17 11:50:26 - INFO - Executed insert_data_multithreaded in 0.0210 seconds
+2025-02-17 11:50:26 - INFO - Data insertion completed.
+2025-02-17 11:50:26 - INFO - ------------Program Completed--------------
+
+2025-02-17 16:11:45 - INFO - Database connection established successfully.
+2025-02-17 16:11:45 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 16:52:01 - INFO - Database connection established successfully.
+2025-02-17 16:52:01 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 16:52:01 - INFO - Data Cleaned
+2025-02-17 16:52:01 - INFO - CSV Data Read and Loaded.
+2025-02-17 16:52:01 - INFO - Executed read_csv_data in 0.0150 seconds
+2025-02-17 16:52:01 - INFO - Starting multi-threaded data insertion...
+2025-02-17 16:52:01 - INFO - Database connection established successfully.
+2025-02-17 16:52:01 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '25-04-2023' for column 'Date' at row 1")
+2025-02-17 16:52:01 - INFO - Executed __insert_batch_data in 0.0040 seconds
+2025-02-17 16:52:01 - INFO - Database connection established successfully.
+2025-02-17 16:52:01 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '24-11-2023' for column 'Date' at row 1")
+2025-02-17 16:52:01 - INFO - Executed __insert_batch_data in 0.0275 seconds
+2025-02-17 16:52:01 - INFO - Executed insert_data_multithreaded in 0.0305 seconds
+2025-02-17 16:52:01 - INFO - ------------Program Completed--------------
+
+2025-02-17 16:58:55 - INFO - Database connection established successfully.
+2025-02-17 16:58:55 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 16:58:55 - INFO - CSV Data Read
+2025-02-17 16:58:55 - INFO - Data Cleaned
+2025-02-17 16:58:55 - INFO - Executed read_csv_data in 0.0160 seconds
+2025-02-17 16:58:55 - INFO - Starting multi-threaded data insertion...
+2025-02-17 16:58:55 - INFO - Database connection established successfully.
+2025-02-17 16:58:55 - INFO - Database connection established successfully.
+2025-02-17 16:58:55 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '24-11-2023' for column 'Date' at row 1")
+2025-02-17 16:58:55 - INFO - Executed __insert_batch_data in 0.0050 seconds
+2025-02-17 16:58:55 - ERROR - Error inserting batch: (1292, "Incorrect datetime value: '25-04-2023' for column 'Date' at row 1")
+2025-02-17 16:58:55 - INFO - Executed __insert_batch_data in 0.0030 seconds
+2025-02-17 16:58:55 - INFO - Executed insert_data_multithreaded in 0.0060 seconds
+2025-02-17 16:58:55 - INFO - ------------Program Completed--------------
+
+2025-02-17 17:11:19 - INFO - Database connection established successfully.
+2025-02-17 17:11:19 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-17 17:11:19 - INFO - CSV Data Read
+2025-02-17 17:11:19 - INFO - Data Cleaned
+2025-02-17 17:11:19 - INFO - Executed read_csv_data in 0.0556 seconds
+2025-02-17 17:11:19 - INFO - Starting multi-threaded data insertion...
+2025-02-17 17:11:19 - INFO - Database connection established successfully.
+2025-02-17 17:11:19 - INFO - Inserted batch of 5 records successfully.
+2025-02-17 17:11:19 - INFO - Executed __insert_batch_data in 0.0092 seconds
+2025-02-17 17:11:19 - INFO - Database connection established successfully.
+2025-02-17 17:11:19 - INFO - Inserted batch of 5 records successfully.
+2025-02-17 17:11:19 - INFO - Executed __insert_batch_data in 0.0259 seconds
+2025-02-17 17:11:19 - INFO - Executed insert_data_multithreaded in 0.0677 seconds
+2025-02-17 17:11:19 - INFO - ------------Program Completed--------------
+
+2025-02-18 10:48:56 - INFO - Database connection established successfully.
+2025-02-18 10:48:56 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-18 10:48:56 - INFO - CSV Data Read
+2025-02-18 10:48:56 - INFO - Data Cleaned. Filled NaN Values.
+2025-02-18 10:48:56 - INFO - Executed read_csv_data in 0.0330 seconds
+2025-02-18 10:48:56 - INFO - Starting multi-threaded data insertion...
+2025-02-18 10:48:56 - INFO - Database connection established successfully.
+2025-02-18 10:48:56 - INFO - Inserted batch of 5 records successfully.
+2025-02-18 10:48:56 - INFO - Executed __insert_batch_data in 0.0044 seconds
+2025-02-18 10:48:56 - INFO - Database connection established successfully.
+2025-02-18 10:48:56 - INFO - Inserted batch of 5 records successfully.
+2025-02-18 10:48:56 - INFO - Executed __insert_batch_data in 0.0302 seconds
+2025-02-18 10:48:56 - INFO - Executed insert_data_multithreaded in 0.0332 seconds
+2025-02-18 10:48:56 - INFO - Database connection established successfully.
+2025-02-18 10:48:56 - ERROR - MySQL Error: (1146, "Table 'mydb.your_table' doesn't exist")
+2025-02-18 10:48:56 - INFO - ------------Program Completed--------------
+
+2025-02-18 10:49:39 - INFO - Database connection established successfully.
+2025-02-18 10:49:39 - INFO - Table `Retail_Market_Sales` created successfully.
+2025-02-18 10:49:39 - INFO - CSV Data Read
+2025-02-18 10:49:39 - INFO - Data Cleaned. Filled NaN Values.
+2025-02-18 10:49:39 - INFO - Executed read_csv_data in 0.0564 seconds
+2025-02-18 10:49:39 - INFO - Starting multi-threaded data insertion...
+2025-02-18 10:49:39 - INFO - Database connection established successfully.
+2025-02-18 10:49:39 - INFO - Database connection established successfully.
+2025-02-18 10:49:39 - INFO - Inserted batch of 5 records successfully.
+2025-02-18 10:49:39 - INFO - Executed __insert_batch_data in 0.0175 seconds
+2025-02-18 10:49:39 - INFO - Inserted batch of 5 records successfully.
+2025-02-18 10:49:39 - INFO - Executed __insert_batch_data in 0.0174 seconds
+2025-02-18 10:49:39 - INFO - Executed insert_data_multithreaded in 0.0209 seconds
+2025-02-18 10:49:39 - INFO - Database connection established successfully.
+2025-02-18 10:49:39 - INFO - Data fetched and saved to db_output_data.csv
+2025-02-18 10:49:39 - INFO - ------------Program Completed--------------
+
+2025-02-18 10:55:13 - INFO - Database connection established successfully.
+2025-02-18 10:55:13 - INFO - Table `Retail_Market_Sales` created successfully in MySQL.
+2025-02-18 10:55:13 - INFO - CSV Data Read
+2025-02-18 10:55:13 - INFO - Data Cleaned. Filled NaN Values.
+2025-02-18 10:55:13 - INFO - Executed read_csv_data in 0.0507 seconds
+2025-02-18 10:55:13 - INFO - Starting multi-threading data insertion...
+2025-02-18 10:55:13 - INFO - Database connection established successfully.
+2025-02-18 10:55:13 - INFO - Database connection established successfully.
+2025-02-18 10:55:14 - INFO - Inserted batch of 492 records successfully.
+2025-02-18 10:55:14 - INFO - Executed __insert_batch_data in 0.0249 seconds
+2025-02-18 10:55:14 - INFO - Inserted batch of 493 records successfully.
+2025-02-18 10:55:14 - INFO - Executed __insert_batch_data in 0.0313 seconds
+2025-02-18 10:55:14 - INFO - Executed insert_data_multithreaded in 0.0343 seconds
+2025-02-18 10:55:14 - INFO - Database connection established successfully.
+2025-02-18 10:55:14 - INFO - Data fetched from DB and saved to db_output_data.csv
+2025-02-18 10:55:14 - INFO - ------------Program Completed--------------
+
+2025-02-18 11:00:36 - INFO - Database connection established successfully.
+2025-02-18 11:00:36 - INFO - Table `Retail_Market_Sales` created successfully in MySQL.
+2025-02-18 11:00:36 - INFO - CSV Data Read
+2025-02-18 11:00:36 - INFO - Data Cleaned. Filled NaN Values.
+2025-02-18 11:00:36 - INFO - Executed read_csv_data in 0.0540 seconds
+2025-02-18 11:00:36 - INFO - Starting multi-threading data insertion...
+2025-02-18 11:00:36 - INFO - Database connection established successfully.
+2025-02-18 11:00:36 - INFO - Database connection established successfully.
+2025-02-18 11:00:36 - INFO - Inserted batch of 493 records successfully.
+2025-02-18 11:00:36 - INFO - Executed __insert_batch_data in 0.0284 seconds
+2025-02-18 11:00:36 - INFO - Inserted batch of 492 records successfully.
+2025-02-18 11:00:36 - INFO - Executed __insert_batch_data in 0.0405 seconds
+2025-02-18 11:00:36 - INFO - Executed insert_data_multithreaded in 0.0425 seconds
+2025-02-18 11:00:36 - INFO - Database connection established successfully.
+2025-02-18 11:00:36 - INFO - Data fetched from DB and saved to db_output_data.csv
+2025-02-18 11:00:36 - INFO - ------------Program Completed--------------
+
+2025-02-18 11:08:02 - INFO - Database connection established successfully.
+2025-02-18 11:08:02 - INFO - Table `Retail_Market_Sales` created successfully in MySQL.
+2025-02-18 11:08:02 - INFO - CSV Data Read
+2025-02-18 11:08:02 - INFO - Data Cleaned. Filled NaN Values.
+2025-02-18 11:08:02 - INFO - Executed read_csv_data in 0.0605 seconds
+2025-02-18 11:08:02 - INFO - Starting multi-threading data insertion...
+2025-02-18 11:08:02 - INFO - Database connection established successfully.
+2025-02-18 11:08:02 - INFO - Inserted batch of 493 records successfully.
+2025-02-18 11:08:02 - INFO - Executed __insert_batch_data in 0.0185 seconds
+2025-02-18 11:08:02 - INFO - Database connection established successfully.
+2025-02-18 11:08:02 - INFO - Inserted batch of 492 records successfully.
+2025-02-18 11:08:02 - INFO - Executed __insert_batch_data in 0.0446 seconds
+2025-02-18 11:08:02 - INFO - Executed insert_data_multithreaded in 0.0466 seconds
+2025-02-18 11:08:02 - INFO - Database connection established successfully.
+2025-02-18 11:08:02 - INFO - 10 Data fetched from DB and saved to db_output_data.csv
+2025-02-18 11:08:02 - INFO - ------------Program Completed--------------
+
+2025-02-18 11:09:08 - INFO - Database connection established successfully.
+2025-02-18 11:09:08 - INFO - Table `Retail_Market_Sales` created successfully in MySQL.
+2025-02-18 11:09:08 - INFO - CSV Data Read
+2025-02-18 11:09:08 - INFO - Data Cleaned. Filled NaN Values.
+2025-02-18 11:09:08 - INFO - Executed read_csv_data in 0.0474 seconds
+2025-02-18 11:09:08 - INFO - Starting multi-threading data insertion...
+2025-02-18 11:09:08 - INFO - Database connection established successfully.
+2025-02-18 11:09:08 - INFO - Inserted batch of 492 records successfully.
+2025-02-18 11:09:08 - INFO - Executed __insert_batch_data in 0.0227 seconds
+2025-02-18 11:09:08 - INFO - Database connection established successfully.
+2025-02-18 11:09:08 - INFO - Inserted batch of 493 records successfully.
+2025-02-18 11:09:08 - INFO - Executed __insert_batch_data in 0.0401 seconds
+2025-02-18 11:09:08 - INFO - Executed insert_data_multithreaded in 0.0441 seconds
+2025-02-18 11:09:09 - INFO - Database connection established successfully.
+2025-02-18 11:09:09 - INFO - 500 Data fetched from DB and saved to db_output_data.csv
+2025-02-18 11:09:09 - INFO - ------------Program Completed--------------
+
+2025-02-19 10:57:57 - INFO - Database connection established successfully.
+2025-02-19 10:57:57 - INFO - Table `Retail_Market_Sales` created successfully in MySQL.
+2025-02-19 10:57:57 - INFO - CSV Data Read
+2025-02-19 10:57:57 - INFO - Data Cleaned. Filled NaN Values.
+2025-02-19 10:57:57 - INFO - Executed read_csv_data in 0.0343 seconds
+2025-02-19 10:57:57 - INFO - Starting multi-threading data insertion...
+2025-02-19 10:57:57 - INFO - Database connection established successfully.
+2025-02-19 10:57:57 - INFO - Database connection established successfully.
+2025-02-19 10:57:57 - INFO - Database connection established successfully.
+2025-02-19 10:57:57 - INFO - Database connection established successfully.
+2025-02-19 10:57:57 - INFO - Database connection established successfully.
+2025-02-19 10:57:57 - INFO - Inserted batch of 197 records successfully.
+2025-02-19 10:57:57 - INFO - Executed __insert_batch_data in 0.0703 seconds
+2025-02-19 10:57:57 - INFO - Inserted batch of 197 records successfully.
+2025-02-19 10:57:57 - INFO - Inserted batch of 197 records successfully.
+2025-02-19 10:57:57 - INFO - Executed __insert_batch_data in 0.0364 seconds
+2025-02-19 10:57:57 - INFO - Executed __insert_batch_data in 0.0464 seconds
+2025-02-19 10:57:57 - INFO - Inserted batch of 197 records successfully.
+2025-02-19 10:57:57 - INFO - Executed __insert_batch_data in 0.0256 seconds
+2025-02-19 10:57:57 - INFO - Inserted batch of 197 records successfully.
+2025-02-19 10:57:57 - INFO - Executed __insert_batch_data in 0.0708 seconds
+2025-02-19 10:57:57 - INFO - Executed insert_data_multithreaded in 0.0853 seconds
+2025-02-19 10:57:57 - INFO - Database connection established successfully.
+2025-02-19 10:57:57 - INFO - 500 Data fetched from DB and saved to db_output_data.csv
+2025-02-19 10:57:57 - INFO - ------------Program Completed--------------
+
