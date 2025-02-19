@@ -8,9 +8,9 @@ log = Logger()
 # Database Configuration
 db_config = {
     "host": '*******',
-    "user": '*******',
+    "user": 'user name',
     "password": '*********',
-    "database": '********',
+    "database": 'database name',
     "port": 0000
 }
 
