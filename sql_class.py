@@ -2,24 +2,29 @@ import pymysql
 import threading
 from sql_pgrm.log_class import Logger
 import pandas as pd
+import configparser
 
 log = Logger()
-
-# Database Configuration
-db_config = {
-    "host": '*******',
-    "user": 'user name',
-    "password": '*********',
-    "database": 'database name',
-    "port": 0000
-}
 
 
 class SqlOperation:
 
+    def __read_config(self, filename='db_config.properties'):
+        config = configparser.ConfigParser()
+        config.read(filename)
+        db_config = {
+                    'host': config.get('db', 'host'),
+                    'user': config.get('db', 'user'),
+                    'password': config.get('db', 'password'),
+                    'database': config.get('db', 'database'),
+                    'port': int(config.get('db', 'port'))
+        }
+        return db_config
+
     def create_connection(self):
         try:
-            conn = pymysql.connect(**db_config)
+            config = self.__read_config()
+            conn = pymysql.connect(**config)
             log.info('Database connection established successfully.')
             return conn
         except pymysql.MySQLError as e:

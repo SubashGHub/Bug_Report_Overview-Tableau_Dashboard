@@ -8,13 +8,13 @@ class Main:
     sql_obj = SqlOperation()
     data_obj = ProcessData()
 
-    file_path = "retail_market_sales_dataset.csv"
+    file_path = "retail_market_sales_dataset_.csv"
 
     sql_obj.create_table()
     df_clean = data_obj.read_csv_data(file_path)
 
     log.info("Starting multi-threading data insertion...")
-    sql_obj.insert_data_multithreaded(df_clean, num_threads=5)
+    sql_obj.insert_data_multithreaded(df_clean, num_threads=2)
 
     # Fetch limited records and store in a CSV
     sql_query = "SELECT * FROM Retail_Market_Sales LIMIT 500;"
